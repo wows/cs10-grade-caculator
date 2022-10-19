@@ -1,26 +1,19 @@
-// SIMPLE adi
 
-
-
-// Event listener on Button
-document.getElementById("boo").addEventListener("click", btnclicked);
-
-function btnclicked(){
+// javascript code
+document.getElementById("Button1").onclick = function Btn1() {
 
 // input
-let n1 = +document.getElementById("number1");
-let n2 = +document.getElementById("number2");
-let n3 = +document.getElementById("number3");
-let n4 = +document.getElementById("number4");
-let n5 = +document.getElementById("number5");
-
-
+var n1 = +document.getElementById("number1").value
+var n2 = +document.getElementById("number2").value
+var n3 = +document.getElementById("number3").value
+var n4 = +document.getElementById("number4").value
+var n5 = +document.getElementById("number5").value
 
 
 // Procces
-let total = (n1 + n2 + n3 + n4 + n5);
+var total = (number1 + number2 + number3 + number4 + number5) /5;
 
 
 //Output
-document.getElementById("output").innerHTML = total;
+document.getElementById("Grade").innerHTML = `Final CS10 Grade ${total}%`
 }
