@@ -15,3 +15,4 @@ function btnClicked() {
   //Output
   document.getElementById("Grade").innerHTML = total;
 }
+ 
